@@ -13,7 +13,7 @@ public class SongManagerTest : MonoBehaviour
     public List<TestNote> notes = new List<TestNote>();
     public List<BPMChange> bpmChanges = new List<BPMChange>();
     public AudioSource songAudio;
-    public AudioClip punchSFX;
+    public AudioSource punchSFX;
 
     [Header("Objects")]
     public GameObject potPrefab;
@@ -101,7 +101,7 @@ public class SongManagerTest : MonoBehaviour
                 notes.RemoveAt(0);
 
                 // Setting the hard punch to be whether the thrown object was a rock or cooking pot
-                KarateJoeAnims.hardPunchNext = (latestNote.Type == ThrowablesTest.Rock || latestNote.Type == ThrowablesTest.CookingPot);
+                KarateJoeAnims.hardPunchNext = (latestNote.Type == ThrowablesTest.Rock || latestNote.Type == ThrowablesTest.CookingPot || latestNote.Type == ThrowablesTest.Ball);
             }
         }
         else
@@ -132,6 +132,8 @@ public class SongManagerTest : MonoBehaviour
             songStarted = true;
         }
         
+        if (Input.GetKeyDown(KeyCode.Z)) punchSFX.Play();
+
         if (Input.GetKeyDown(KeyCode.Z) && thrownObjects.Count > 0)
         {
             GameObject currentThrownObject = thrownObjects[0];
@@ -144,8 +146,6 @@ public class SongManagerTest : MonoBehaviour
             }
             else
             {
-                AudioSource.PlayClipAtPoint(punchSFX, Vector3.zero);
-
                 if (currentPot.Missed())
                 {
                     thrownObjects.RemoveAt(0);
