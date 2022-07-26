@@ -1,0 +1,36 @@
+In the "Songs" folder, there will be each song as a folder, the folder will have 2 files inside:
+  1) song.wav - The audio file for the song
+  2) song.json - The JSON file storing song information
+
+song.json structure:
+  Name - The name of the song that will be shown in the level selector
+  BPM - The starting BPM of the song as a number
+  BackgroundType - The background type used, the types are listed below:
+    1) The background from Karate Man 1 on GBA (Yellow with toggleable lines that alternate each beat)
+    2) The background from Karate Man 2 on GBA (Same as above but purple)
+    3) The background from Karate Man prequel on Megamix (Pink-ish circles alternating each beat)
+    4) The background from Karate Man DS (Blue background with snow that falls and can change speed)
+    5) The background from Karate Man Fever (Orange background with snow as above) (Orange chosen simply for visual variety)
+    6) The background from Karate Man Senior (Purple with snow as above) (From memory)
+    7) The "Serious" background from Remix 8 Tengoku (The black + white background with red Kanji that means Serious)
+  BPM Changes - A list of json objects with BPM changes with a structure shown below:
+    BPM - The new BPM
+    Beat - The beat that the BPM change occurs on
+  Notes - A list of json object with each note to be hit using a structure shown below:
+    Type - The type of object to be thrown as specified below:
+      Pot
+      Rock
+      CookingPot
+      Ball
+    Beat - The beat the object is to be hit on
+  Events - A list of JSON objects containing the purely visual events such as "Hit x" and Background events using the structure below:
+    Type - The type of event as listed below:
+      BackgroundX - A background event where X is replaced with one of the below:
+        Start - Starting any background events such as alternating patterns
+        Stop - Stopping any above events
+        SpeedFast - Setting the falling snow to move faster across the screen
+        SpeedSlow - Setting the falling snow to move slower
+        SpeedStop - Setting the falling snow to stop
+      Grr - Show the GRR text for a beat
+      Hit x - Show the Hit x text for how many beats x is + 1.5
+    Beat - The beat the event is to start

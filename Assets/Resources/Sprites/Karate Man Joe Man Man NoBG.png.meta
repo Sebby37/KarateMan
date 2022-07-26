@@ -1,0 +1,5100 @@
+fileFormatVersion: 2
+guid: ba8e49a9acd0cb9408a3f8e1813df810
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6783755505941983100
+    second: Karate Man Joe Man Man NoBG_0
+  - first:
+      213: -1089714199183871503
+    second: Karate Man Joe Man Man NoBG_1
+  - first:
+      213: 7103066762800693043
+    second: Karate Man Joe Man Man NoBG_2
+  - first:
+      213: -7201674151929855781
+    second: Karate Man Joe Man Man NoBG_3
+  - first:
+      213: -8678640897890049144
+    second: Karate Man Joe Man Man NoBG_4
+  - first:
+      213: 6438775690552004749
+    second: Karate Man Joe Man Man NoBG_5
+  - first:
+      213: 6317168882107852037
+    second: Karate Man Joe Man Man NoBG_6
+  - first:
+      213: 5354782097465286266
+    second: Karate Man Joe Man Man NoBG_7
+  - first:
+      213: 8895995003024172350
+    second: Karate Man Joe Man Man NoBG_8
+  - first:
+      213: 6483968624449795093
+    second: Karate Man Joe Man Man NoBG_9
+  - first:
+      213: -6965673319155878292
+    second: Karate Man Joe Man Man NoBG_10
+  - first:
+      213: -2428341017614234239
+    second: Karate Man Joe Man Man NoBG_11
+  - first:
+      213: -647537926238453783
+    second: Karate Man Joe Man Man NoBG_12
+  - first:
+      213: -7747915982920232035
+    second: Karate Man Joe Man Man NoBG_13
+  - first:
+      213: -6204013329241785354
+    second: Karate Man Joe Man Man NoBG_14
+  - first:
+      213: -1814499383105877665
+    second: Karate Man Joe Man Man NoBG_15
+  - first:
+      213: 8968008017904588687
+    second: Karate Man Joe Man Man NoBG_16
+  - first:
+      213: -5243090554908164042
+    second: Karate Man Joe Man Man NoBG_17
+  - first:
+      213: -3977198591753979915
+    second: Karate Man Joe Man Man NoBG_18
+  - first:
+      213: 6065338158109930947
+    second: Karate Man Joe Man Man NoBG_19
+  - first:
+      213: 3357430316875399156
+    second: Karate Man Joe Man Man NoBG_20
+  - first:
+      213: -8011129402556173103
+    second: Karate Man Joe Man Man NoBG_21
+  - first:
+      213: -4170038472401365142
+    second: Karate Man Joe Man Man NoBG_22
+  - first:
+      213: 170720166211610076
+    second: Karate Man Joe Man Man NoBG_23
+  - first:
+      213: -5537861987708741532
+    second: Karate Man Joe Man Man NoBG_24
+  - first:
+      213: 7968105139951998961
+    second: Karate Man Joe Man Man NoBG_25
+  - first:
+      213: 7084564578936021820
+    second: Karate Man Joe Man Man NoBG_26
+  - first:
+      213: 8561813391018571472
+    second: Karate Man Joe Man Man NoBG_27
+  - first:
+      213: 4458521288308912343
+    second: Karate Man Joe Man Man NoBG_28
+  - first:
+      213: -3003390785588317857
+    second: Karate Man Joe Man Man NoBG_29
+  - first:
+      213: 6473414372069629927
+    second: Karate Man Joe Man Man NoBG_30
+  - first:
+      213: -5430087046272800224
+    second: Karate Man Joe Man Man NoBG_31
+  - first:
+      213: -8810850848949151731
+    second: Karate Man Joe Man Man NoBG_32
+  - first:
+      213: 2260831669195266526
+    second: Karate Man Joe Man Man NoBG_33
+  - first:
+      213: 3051406966127411251
+    second: Punch1
+  - first:
+      213: 6406117177364604859
+    second: Punch2
+  - first:
+      213: -1261773726670014981
+    second: Punch3
+  - first:
+      213: 6197771759976524006
+    second: Punch4
+  - first:
+      213: -8484706302582316569
+    second: HardPunch1
+  - first:
+      213: 6534842087408394528
+    second: Karate Man Joe Man Man NoBG_39
+  - first:
+      213: 3615680020598108391
+    second: Karate Man Joe Man Man NoBG_40
+  - first:
+      213: -2403364221500307833
+    second: Karate Man Joe Man Man NoBG_41
+  - first:
+      213: 7999672893128865532
+    second: Karate Man Joe Man Man NoBG_42
+  - first:
+      213: 2070029584039044720
+    second: Karate Man Joe Man Man NoBG_43
+  - first:
+      213: -4514783152815479055
+    second: Karate Man Joe Man Man NoBG_44
+  - first:
+      213: 8854861807957097436
+    second: Karate Man Joe Man Man NoBG_45
+  - first:
+      213: -4003033000858569817
+    second: Karate Man Joe Man Man NoBG_46
+  - first:
+      213: -569381948953528293
+    second: Karate Man Joe Man Man NoBG_47
+  - first:
+      213: -3387308046938741217
+    second: Karate Man Joe Man Man NoBG_48
+  - first:
+      213: -2292312992475606108
+    second: Karate Man Joe Man Man NoBG_49
+  - first:
+      213: 7482364950872203191
+    second: Karate Man Joe Man Man NoBG_50
+  - first:
+      213: -1254276519568924302
+    second: Karate Man Joe Man Man NoBG_51
+  - first:
+      213: -5408838021453359264
+    second: Karate Man Joe Man Man NoBG_52
+  - first:
+      213: -2658655269299398335
+    second: Karate Man Joe Man Man NoBG_53
+  - first:
+      213: -6192221605110715177
+    second: HitGraphic
+  - first:
+      213: 6220716479232926863
+    second: Karate Man Joe Man Man NoBG_55
+  - first:
+      213: 6882291132634438008
+    second: Karate Man Joe Man Man NoBG_56
+  - first:
+      213: -7887672817384345591
+    second: Karate Man Joe Man Man NoBG_57
+  - first:
+      213: 6782872975925885398
+    second: Karate Man Joe Man Man NoBG_58
+  - first:
+      213: 850864096539249347
+    second: Karate Man Joe Man Man NoBG_59
+  - first:
+      213: 2420747296109325598
+    second: HardPunch2
+  - first:
+      213: 68594767601575384
+    second: HardPunch3
+  - first:
+      213: -9082404294898728889
+    second: HardPunch4
+  - first:
+      213: -8418855720891901882
+    second: HardPunch5
+  - first:
+      213: -5070647115361842908
+    second: HittableLogByBulb
+  - first:
+      213: -8450264648712899729
+    second: HittablePot
+  - first:
+      213: -5356327053747145104
+    second: Karate Man Joe Man Man NoBG_66
+  - first:
+      213: -5050380339734451694
+    second: HittableSoccerBall
+  - first:
+      213: -7927259190360862743
+    second: HittableRock
+  - first:
+      213: -5483993266906711619
+    second: Karate Man Joe Man Man NoBG_69
+  - first:
+      213: -5100149838730299204
+    second: Karate Man Joe Man Man NoBG_70
+  - first:
+      213: -175333183428901628
+    second: Karate Man Joe Man Man NoBG_71
+  - first:
+      213: 594212323328933717
+    second: Karate Man Joe Man Man NoBG_72
+  - first:
+      213: 1509171666337913825
+    second: Karate Man Joe Man Man NoBG_73
+  - first:
+      213: 2443464411802818070
+    second: Karate Man Joe Man Man NoBG_74
+  - first:
+      213: 3947654700184868877
+    second: Karate Man Joe Man Man NoBG_75
+  - first:
+      213: -1409216395804227296
+    second: Karate Man Joe Man Man NoBG_76
+  - first:
+      213: 564201845871103332
+    second: Karate Man Joe Man Man NoBG_77
+  - first:
+      213: -6185268150282501242
+    second: Karate Man Joe Man Man NoBG_78
+  - first:
+      213: -8753012033669886034
+    second: Karate Man Joe Man Man NoBG_79
+  - first:
+      213: 7480797335190054163
+    second: Karate Man Joe Man Man NoBG_80
+  - first:
+      213: -528209958644757572
+    second: Karate Man Joe Man Man NoBG_81
+  - first:
+      213: 5185887897548976227
+    second: Karate Man Joe Man Man NoBG_82
+  - first:
+      213: 4268970048157796024
+    second: Karate Man Joe Man Man NoBG_83
+  - first:
+      213: 8050970417625002837
+    second: Karate Man Joe Man Man NoBG_84
+  - first:
+      213: -6189888121416146303
+    second: Karate Man Joe Man Man NoBG_85
+  - first:
+      213: 852321249878442401
+    second: Karate Man Joe Man Man NoBG_86
+  - first:
+      213: -717342029302464765
+    second: Karate Man Joe Man Man NoBG_87
+  - first:
+      213: 1771860756889580024
+    second: Karate Man Joe Man Man NoBG_88
+  - first:
+      213: -1662753984670414605
+    second: Karate Man Joe Man Man NoBG_89
+  - first:
+      213: 7434965030289029608
+    second: Karate Man Joe Man Man NoBG_90
+  - first:
+      213: -5468035910783907763
+    second: Karate Man Joe Man Man NoBG_91
+  - first:
+      213: 8425892912773682612
+    second: Karate Man Joe Man Man NoBG_92
+  - first:
+      213: -3452405867144251250
+    second: Karate Man Joe Man Man NoBG_93
+  - first:
+      213: 680073778968976897
+    second: Karate Man Joe Man Man NoBG_94
+  - first:
+      213: 8689896513978746794
+    second: Karate Man Joe Man Man NoBG_95
+  - first:
+      213: 8906343452306172878
+    second: Karate Man Joe Man Man NoBG_96
+  - first:
+      213: -9078450611950531218
+    second: Karate Man Joe Man Man NoBG_97
+  - first:
+      213: 2537053064631614818
+    second: Karate Man Joe Man Man NoBG_98
+  - first:
+      213: -7817801414121224916
+    second: Karate Man Joe Man Man NoBG_99
+  - first:
+      213: -2903906335803459154
+    second: Karate Man Joe Man Man NoBG_100
+  - first:
+      213: 6080285622530865265
+    second: Karate Man Joe Man Man NoBG_101
+  - first:
+      213: -5728854635580752520
+    second: Karate Man Joe Man Man NoBG_102
+  - first:
+      213: 8108231267679991803
+    second: Karate Man Joe Man Man NoBG_103
+  - first:
+      213: -8563042398188863598
+    second: Karate Man Joe Man Man NoBG_104
+  - first:
+      213: -3645717250914248562
+    second: Karate Man Joe Man Man NoBG_105
+  - first:
+      213: 8764011092183362319
+    second: Karate Man Joe Man Man NoBG_106
+  - first:
+      213: -7390243365358862714
+    second: Karate Man Joe Man Man NoBG_107
+  - first:
+      213: 1705532902865883336
+    second: Karate Man Joe Man Man NoBG_108
+  - first:
+      213: 6547708340906294905
+    second: Karate Man Joe Man Man NoBG_109
+  - first:
+      213: -7715348784037177815
+    second: Karate Man Joe Man Man NoBG_110
+  - first:
+      213: -7063269164101421850
+    second: Karate Man Joe Man Man NoBG_111
+  - first:
+      213: 4196059550968302164
+    second: Karate Man Joe Man Man NoBG_112
+  - first:
+      213: 5438832389022530891
+    second: Karate Man Joe Man Man NoBG_113
+  - first:
+      213: -5943986642605821682
+    second: Karate Man Joe Man Man NoBG_114
+  - first:
+      213: -2920915460261681212
+    second: Karate Man Joe Man Man NoBG_115
+  - first:
+      213: 6277699915506001388
+    second: Karate Man Joe Man Man NoBG_116
+  - first:
+      213: -4582897045769229917
+    second: Karate Man Joe Man Man NoBG_117
+  - first:
+      213: 4312808138538456085
+    second: Karate Man Joe Man Man NoBG_118
+  - first:
+      213: -5675792499329608239
+    second: Karate Man Joe Man Man NoBG_119
+  - first:
+      213: 7478845372040795973
+    second: Karate Man Joe Man Man NoBG_120
+  - first:
+      213: 6764999084013496760
+    second: Karate Man Joe Man Man NoBG_121
+  - first:
+      213: -1734186252281733745
+    second: Karate Man Joe Man Man NoBG_122
+  - first:
+      213: -7342505123724445963
+    second: Karate Man Joe Man Man NoBG_123
+  - first:
+      213: -7433430255088644768
+    second: Karate Man Joe Man Man NoBG_124
+  - first:
+      213: 9201772176849602626
+    second: Karate Man Joe Man Man NoBG_125
+  - first:
+      213: 6020125524623054206
+    second: Karate Man Joe Man Man NoBG_126
+  - first:
+      213: -2916603135975835558
+    second: Karate Man Joe Man Man NoBG_127
+  - first:
+      213: -426849401065307815
+    second: Karate Man Joe Man Man NoBG_128
+  - first:
+      213: 4959920869789507596
+    second: Karate Man Joe Man Man NoBG_129
+  - first:
+      213: 8144353070695204852
+    second: Karate Man Joe Man Man NoBG_130
+  - first:
+      213: 8620689283744670548
+    second: Karate Man Joe Man Man NoBG_131
+  - first:
+      213: 7566477107718830291
+    second: Karate Man Joe Man Man NoBG_132
+  - first:
+      213: 4413343487861473103
+    second: Karate Man Joe Man Man NoBG_133
+  - first:
+      213: -1426970162127248533
+    second: Karate Man Joe Man Man NoBG_134
+  - first:
+      213: 1053968875730234071
+    second: Karate Man Joe Man Man NoBG_135
+  - first:
+      213: -1349850533071571089
+    second: Karate Man Joe Man Man NoBG_136
+  - first:
+      213: 21577452243362497
+    second: Karate Man Joe Man Man NoBG_137
+  - first:
+      213: 4632251674136776745
+    second: Karate Man Joe Man Man NoBG_138
+  - first:
+      213: 7707788011597695650
+    second: Karate Man Joe Man Man NoBG_139
+  - first:
+      213: 3344208368667586042
+    second: Karate Man Joe Man Man NoBG_140
+  - first:
+      213: 4399848671458764285
+    second: Karate Man Joe Man Man NoBG_141
+  - first:
+      213: -6779827458289611605
+    second: Karate Man Joe Man Man NoBG_142
+  - first:
+      213: 5175746031552540052
+    second: Karate Man Joe Man Man NoBG_143
+  - first:
+      213: 4922054462240424606
+    second: Karate Man Joe Man Man NoBG_144
+  - first:
+      213: -2740042620364257880
+    second: Karate Man Joe Man Man NoBG_145
+  - first:
+      213: 7588840875134267465
+    second: Karate Man Joe Man Man NoBG_146
+  - first:
+      213: -5016026104960167677
+    second: Karate Man Joe Man Man NoBG_147
+  - first:
+      213: 1238961589481780273
+    second: Karate Man Joe Man Man NoBG_148
+  - first:
+      213: 6263780253566099432
+    second: Karate Man Joe Man Man NoBG_149
+  - first:
+      213: 3528152436889267980
+    second: Karate Man Joe Man Man NoBG_150
+  - first:
+      213: 3539817882397769719
+    second: Karate Man Joe Man Man NoBG_151
+  - first:
+      213: 8930481609978541846
+    second: Karate Man Joe Man Man NoBG_152
+  - first:
+      213: -759660908676092155
+    second: Karate Man Joe Man Man NoBG_153
+  - first:
+      213: -7597466457379229225
+    second: Karate Man Joe Man Man NoBG_154
+  - first:
+      213: 9072901574210107059
+    second: Karate Man Joe Man Man NoBG_155
+  - first:
+      213: 5626322272507526168
+    second: Karate Man Joe Man Man NoBG_156
+  - first:
+      213: 3456270387726266758
+    second: Karate Man Joe Man Man NoBG_157
+  - first:
+      213: 4485989874179427620
+    second: Karate Man Joe Man Man NoBG_158
+  - first:
+      213: 515358941237004395
+    second: Karate Man Joe Man Man NoBG_159
+  - first:
+      213: -4348759827911180678
+    second: Karate Man Joe Man Man NoBG_160
+  - first:
+      213: 3813218706684908659
+    second: Karate Man Joe Man Man NoBG_161
+  - first:
+      213: -5791405496646599497
+    second: Karate Man Joe Man Man NoBG_162
+  - first:
+      213: -6759447192989411827
+    second: Karate Man Joe Man Man NoBG_163
+  - first:
+      213: -6496626009151183220
+    second: Karate Man Joe Man Man NoBG_164
+  - first:
+      213: 6299349749410159100
+    second: Karate Man Joe Man Man NoBG_165
+  - first:
+      213: 8165738634584786127
+    second: Karate Man Joe Man Man NoBG_166
+  - first:
+      213: 4242858990281683976
+    second: Karate Man Joe Man Man NoBG_167
+  - first:
+      213: -6197520349680873777
+    second: Karate Man Joe Man Man NoBG_168
+  - first:
+      213: 3486285710466887619
+    second: Karate Man Joe Man Man NoBG_169
+  - first:
+      213: 7468262015073716976
+    second: Karate Man Joe Man Man NoBG_170
+  - first:
+      213: -2939205010212075231
+    second: Karate Man Joe Man Man NoBG_171
+  - first:
+      213: -4373292652485499951
+    second: Karate Man Joe Man Man NoBG_172
+  - first:
+      213: 5540006663752289587
+    second: Karate Man Joe Man Man NoBG_173
+  - first:
+      213: -8226846063101024080
+    second: Karate Man Joe Man Man NoBG_174
+  - first:
+      213: 7471101970101474915
+    second: Karate Man Joe Man Man NoBG_175
+  - first:
+      213: -5518306713054328015
+    second: Karate Man Joe Man Man NoBG_176
+  - first:
+      213: 4502037285973734052
+    second: Karate Man Joe Man Man NoBG_177
+  - first:
+      213: 7161418943810678643
+    second: Karate Man Joe Man Man NoBG_178
+  - first:
+      213: 1688139942249277793
+    second: Karate Man Joe Man Man NoBG_179
+  - first:
+      213: 8870713954864222179
+    second: Karate Man Joe Man Man NoBG_180
+  - first:
+      213: 6954650973334883609
+    second: Karate Man Joe Man Man NoBG_181
+  - first:
+      213: -4430809834543160356
+    second: Karate Man Joe Man Man NoBG_182
+  - first:
+      213: 8438184432118601798
+    second: Karate Man Joe Man Man NoBG_183
+  - first:
+      213: 2677726217691251205
+    second: Karate Man Joe Man Man NoBG_184
+  - first:
+      213: 8643914434380868889
+    second: Karate Man Joe Man Man NoBG_185
+  - first:
+      213: -904916993096860987
+    second: Karate Man Joe Man Man NoBG_186
+  - first:
+      213: 4052458198805083158
+    second: Karate Man Joe Man Man NoBG_187
+  - first:
+      213: 9132171049716868019
+    second: Karate Man Joe Man Man NoBG_188
+  - first:
+      213: 354522988198510510
+    second: Karate Man Joe Man Man NoBG_189
+  - first:
+      213: 8658421684046883337
+    second: Karate Man Joe Man Man NoBG_190
+  - first:
+      213: 8652108057471027494
+    second: Karate Man Joe Man Man NoBG_191
+  - first:
+      213: 2993526502466374754
+    second: Karate Man Joe Man Man NoBG_192
+  - first:
+      213: -5456352193881188067
+    second: Karate Man Joe Man Man NoBG_193
+  - first:
+      213: -905967006652153629
+    second: Karate Man Joe Man Man NoBG_194
+  - first:
+      213: -9161042579374351713
+    second: Karate Man Joe Man Man NoBG_195
+  - first:
+      213: -5148951962484356049
+    second: Karate Man Joe Man Man NoBG_196
+  - first:
+      213: -4753044975127316149
+    second: Karate Man Joe Man Man NoBG_197
+  - first:
+      213: 6602415795191343093
+    second: Karate Man Joe Man Man NoBG_198
+  - first:
+      213: -5777066696074443371
+    second: Karate Man Joe Man Man NoBG_199
+  - first:
+      213: 8916375302775649288
+    second: Karate Man Joe Man Man NoBG_200
+  - first:
+      213: 6636972219390495459
+    second: Karate Man Joe Man Man NoBG_201
+  - first:
+      213: -5931290148580060065
+    second: Karate Man Joe Man Man NoBG_202
+  - first:
+      213: -3186375293530637099
+    second: Karate Man Joe Man Man NoBG_203
+  - first:
+      213: -2363316476180656154
+    second: Happy
+  - first:
+      213: 6298452156226584768
+    second: Idle1
+  - first:
+      213: -7486204214195464396
+    second: Idle2
+  - first:
+      213: -5481286310157769595
+    second: Idle3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4805a392f424bd1a0800000000000000
+      internalID: -6783755505941983100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f132fa95be80e0f0800000000000000
+      internalID: -1089714199183871503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1474
+        width: 29
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f7e9c4699239260800000000000000
+      internalID: 7103066762800693043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1474
+        width: 29
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0cb12d3838e0c90800000000000000
+      internalID: -7201674151929855781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1474
+        width: 29
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832614b5164f8780800000000000000
+      internalID: -8678640897890049144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1474
+        width: 29
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80d5cf50602b5950800000000000000
+      internalID: 6438775690552004749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1474
+        width: 29
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505a034e0a71ba750800000000000000
+      internalID: 6317168882107852037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e1a0162f1005a40800000000000000
+      internalID: 5354782097465286266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35e7ee725ce47b70800000000000000
+      internalID: 8895995003024172350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514bb134c1fabf950800000000000000
+      internalID: 6483968624449795093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c663c4e9505f45f90800000000000000
+      internalID: -6965673319155878292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1474
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dc79bd5bccc4ed0800000000000000
+      internalID: -2428341017614234239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_12
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1391
+        width: 89
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efb6f7dfab7307f0800000000000000
+      internalID: -647537926238453783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_13
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1391
+        width: 89
+        height: 110
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93d778b67fd97490800000000000000
+      internalID: -7747915982920232035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1381
+        width: 94
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb31c05fbae6e9a0800000000000000
+      internalID: -6204013329241785354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_15
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1381
+        width: 83
+        height: 123
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f590fc8bc6a91d6e0800000000000000
+      internalID: -1814499383105877665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_16
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1381
+        width: 77
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87de0a17c3c47c70800000000000000
+      internalID: 8968008017904588687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_17
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1381
+        width: 67
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6304e7d5beccc37b0800000000000000
+      internalID: -5243090554908164042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_18
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1388
+        width: 92
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7f151f3f62ec8c0800000000000000
+      internalID: -3977198591753979915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1419
+        width: 49
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5b3c45be86c2450800000000000000
+      internalID: 6065338158109930947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_20
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1445
+        width: 7
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff3c73b51df79e20800000000000000
+      internalID: 3357430316875399156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1453
+        width: 21
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4b3fec040c2d090800000000000000
+      internalID: -8011129402556173103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1360
+        width: 59
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67ddc86a1c0126c0800000000000000
+      internalID: -4170038472401365142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1263
+        width: 127
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5e90f26158e5200800000000000000
+      internalID: 170720166211610076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_24
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1263
+        width: 110
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4685b7fecdf8523b0800000000000000
+      internalID: -5537861987708741532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_25
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1263
+        width: 99
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f79dcf6865649e60800000000000000
+      internalID: 7968105139951998961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_26
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1263
+        width: 82
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33ebcbe2fd615260800000000000000
+      internalID: 7084564578936021820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_27
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1263
+        width: 63
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d638dcaaeba1d670800000000000000
+      internalID: 8561813391018571472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_28
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1263
+        width: 61
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d07b2d4d79dfdd30800000000000000
+      internalID: 4458521288308912343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_29
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1263
+        width: 65
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b35f3effc156d0800000000000000
+      internalID: -3003390785588317857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_30
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1255
+        width: 114
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef5e13e21036d950800000000000000
+      internalID: 6473414372069629927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_31
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1255
+        width: 114
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aa57be99474a4b0800000000000000
+      internalID: -5430087046272800224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_32
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1255
+        width: 74
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08df63b5d199b580800000000000000
+      internalID: -8810850848949151731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_33
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1255
+        width: 64
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9565bbc66106f10800000000000000
+      internalID: 2260831669195266526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1233
+        width: 94
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3304d29f776c85a20800000000000000
+      internalID: 3051406966127411251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1233
+        width: 83
+        height: 123
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7685ab1a917e850800000000000000
+      internalID: 6406117177364604859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1233
+        width: 77
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5b9e21b774d7ee0800000000000000
+      internalID: -1261773726670014981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1233
+        width: 66
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e829581498e20650800000000000000
+      internalID: 6197771759976524006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HardPunch1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1110
+        width: 92
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1201b5294404a80800000000000000
+      internalID: -8484706302582316569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_39
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1145
+        width: 108
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021ef33614c60ba50800000000000000
+      internalID: 6534842087408394528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_40
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1221
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e03a3172d97d2230800000000000000
+      internalID: 3615680020598108391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_41
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1204
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786479f59f885aed0800000000000000
+      internalID: -2403364221500307833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_42
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1210
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6744abc1c840f60800000000000000
+      internalID: 7999672893128865532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_43
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1108
+        width: 94
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076623f60f83abc10800000000000000
+      internalID: 2070029584039044720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_44
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1108
+        width: 94
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6e38294a44851c0800000000000000
+      internalID: -4514783152815479055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_45
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1145
+        width: 127
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb47636e9c2ea70800000000000000
+      internalID: 8854861807957097436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_46
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1171
+        width: 49
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3b8a7d1be5278c0800000000000000
+      internalID: -4003033000858569817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_47
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1204
+        width: 46
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18fa1752262918f0800000000000000
+      internalID: -569381948953528293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_48
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1133
+        width: 113
+        height: 74
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e46d274dddf0d0800000000000000
+      internalID: -3387308046938741217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_49
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1007
+        width: 258
+        height: 134
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a39a718a711030e0800000000000000
+      internalID: -2292312992475606108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_50
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1133
+        width: 31
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf12909743b6d760800000000000000
+      internalID: 7482364950872203191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_51
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1133
+        width: 45
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2712bf0a62ae79ee0800000000000000
+      internalID: -1254276519568924302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_52
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1133
+        width: 104
+        height: 68
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06755ab0a72ffe4b0800000000000000
+      internalID: -5408838021453359264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_53
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1133
+        width: 110
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14950356e1f8a1bd0800000000000000
+      internalID: -2658655269299398335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitGraphic
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1078
+        width: 45
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc60e8024fc01aa0800000000000000
+      internalID: -6192221605110715177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_55
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1101
+        width: 44
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84e819ddac645650800000000000000
+      internalID: 6220716479232926863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_56
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1099
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8791f79325fc28f50800000000000000
+      internalID: 6882291132634438008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_57
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1114
+        width: 55
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9003d4ffc5b598290800000000000000
+      internalID: -7887672817384345591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_58
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1099
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9b8aec80b912e50800000000000000
+      internalID: 6782872975925885398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_59
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1112
+        width: 48
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca0b524360eecb00800000000000000
+      internalID: 850864096539249347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HardPunch2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 985
+        width: 114
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d659317d8389120800000000000000
+      internalID: 2420747296109325598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HardPunch3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 985
+        width: 114
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a754e392b3f000800000000000000
+      internalID: 68594767601575384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HardPunch4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 984
+        width: 74
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74044181a61d4f180800000000000000
+      internalID: -9082404294898728889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HardPunch5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 983
+        width: 64
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64819fca3573a2b80800000000000000
+      internalID: -8418855720891901882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HittableLogByBulb
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1045
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4298f73605171a9b0800000000000000
+      internalID: -5070647115361842908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HittablePot
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1044
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f633d6bc211aaba80800000000000000
+      internalID: -8450264648712899729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_66
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1044
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07636947ce08aa5b0800000000000000
+      internalID: -5356327053747145104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HittableSoccerBall
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1045
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ae28dc6d179e9b0800000000000000
+      internalID: -5050380339734451694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HittableRock
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1044
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef071c44c7bcf190800000000000000
+      internalID: -7927259190360862743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_69
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1044
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9346fdd21f4e3b0800000000000000
+      internalID: -5483993266906711619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_70
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1069
+        width: 31
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8f6315eb0a839b0800000000000000
+      internalID: -5100149838730299204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1044
+        width: 43
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c16c0667119df0800000000000000
+      internalID: -175333183428901628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_72
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1034
+        width: 72
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f3e25b5f01f3800800000000000000
+      internalID: 594212323328933717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_73
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1034
+        width: 58
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebd72572a7a1f410800000000000000
+      internalID: 1509171666337913825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_74
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1044
+        width: 43
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616d0debfede8e120800000000000000
+      internalID: 2443464411802818070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_75
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1033
+        width: 110
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d089b64c803e8c630800000000000000
+      internalID: 3947654700184868877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_76
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1015
+        width: 7
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ce648725717ce0800000000000000
+      internalID: -1409216395804227296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1015
+        width: 7
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d44cce69274d700800000000000000
+      internalID: 564201845871103332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_78
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1015
+        width: 10
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683cfd56363892aa0800000000000000
+      internalID: -6185268150282501242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_79
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1030
+        width: 25
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf036a4eed078680800000000000000
+      internalID: -8753012033669886034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_80
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 938
+        width: 46
+        height: 93
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31521b89a8121d760800000000000000
+      internalID: 7480797335190054163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_81
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1000
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbc72857db6ba8f0800000000000000
+      internalID: -528209958644757572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_82
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1020
+        width: 25
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360776a1199f7f740800000000000000
+      internalID: 5185887897548976227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_83
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 983
+        width: 64
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b64a3d04ad6e3b30800000000000000
+      internalID: 4268970048157796024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_84
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 979
+        width: 26
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55377bf50facabf60800000000000000
+      internalID: 8050970417625002837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_85
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 979
+        width: 27
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182a49b8c89191aa0800000000000000
+      internalID: -6189888121416146303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 979
+        width: 26
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1858539ad04db00800000000000000
+      internalID: 852321249878442401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_87
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 979
+        width: 27
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ff7f8993d7b06f0800000000000000
+      internalID: -717342029302464765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_88
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 953
+        width: 153
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1bbdd78f9e69810800000000000000
+      internalID: 1771860756889580024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_89
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 971
+        width: 19
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8cad28f06bce8e0800000000000000
+      internalID: -1662753984670414605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_92
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 867
+        width: 53
+        height: 153
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b55b5d36f8cee470800000000000000
+      internalID: 8425892912773682612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_93
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 942
+        width: 32
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88746cc7279610d0800000000000000
+      internalID: -3452405867144251250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_94
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 970
+        width: 22
+        height: 6
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ed080bf7b107900800000000000000
+      internalID: 680073778968976897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_96
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 844
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbe55a9e20b99b70800000000000000
+      internalID: 8906343452306172878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_97
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 844
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dc2c3a44dd20280800000000000000
+      internalID: -9078450611950531218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_98
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 844
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dfea5025c653320800000000000000
+      internalID: 2537053064631614818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_99
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 844
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2502cac807918390800000000000000
+      internalID: -7817801414121224916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_100
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 844
+        width: 63
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9bd69b29043b7d0800000000000000
+      internalID: -2903906335803459154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_101
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 844
+        width: 63
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178fdd71f83816450800000000000000
+      internalID: 6080285622530865265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_102
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 942
+        width: 17
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dfb5ccf050f70b0800000000000000
+      internalID: -5728854635580752520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_103
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 961
+        width: 22
+        height: 6
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7f7c2f069368070800000000000000
+      internalID: 8108231267679991803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_104
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 938
+        width: 12
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff75bce46f92980800000000000000
+      internalID: -8563042398188863598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_105
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 938
+        width: 25
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e881eb3e97fc76dc0800000000000000
+      internalID: -3645717250914248562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_106
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 938
+        width: 23
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b2c2597a500a970800000000000000
+      internalID: 8764011092183362319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_107
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 938
+        width: 25
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ef81c70d4907990800000000000000
+      internalID: -7390243365358862714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_108
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 945
+        width: 8
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0df0c83254ba710800000000000000
+      internalID: 1705532902865883336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_109
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 942
+        width: 16
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef4987b022eda50800000000000000
+      internalID: 6547708340906294905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_110
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 942
+        width: 31
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926d83998239de490800000000000000
+      internalID: -7715348784037177815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_111
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 932
+        width: 17
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4b3c83e1a3afd90800000000000000
+      internalID: -7063269164101421850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_112
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 932
+        width: 16
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac9df0ee56b3a30800000000000000
+      internalID: 4196059550968302164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_113
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 932
+        width: 17
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4db39cdd3d9a7b40800000000000000
+      internalID: 5438832389022530891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_114
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 867
+        width: 39
+        height: 94
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0130d124a7b28da0800000000000000
+      internalID: -5943986642605821682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_116
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 904
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce52c3effcede1750800000000000000
+      internalID: 6277699915506001388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_117
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 904
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9ecb80b674660c0800000000000000
+      internalID: -4582897045769229917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_118
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 917
+        width: 11
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5149ff9d62c2adb30800000000000000
+      internalID: 4312808138538456085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_119
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 915
+        width: 16
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5d1a22bc88b31b0800000000000000
+      internalID: -5675792499329608239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_120
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 906
+        width: 24
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547d092cd323ac760800000000000000
+      internalID: 7478845372040795973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_121
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 909
+        width: 20
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9a77c03da12ed50800000000000000
+      internalID: 6764999084013496760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_122
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 906
+        width: 26
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d916aaaceeee7e0800000000000000
+      internalID: -1734186252281733745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_123
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 867
+        width: 47
+        height: 68
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f63be20e7e2a1a90800000000000000
+      internalID: -7342505123724445963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_124
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 856
+        width: 43
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dccc6219627d890800000000000000
+      internalID: -7433430255088644768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_125
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 856
+        width: 27
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2488131ba0343bf70800000000000000
+      internalID: 9201772176849602626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_126
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 856
+        width: 24
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e755b66c448cb8350800000000000000
+      internalID: 6020125524623054206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_127
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 819
+        width: 39
+        height: 94
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58be5196e42687d0800000000000000
+      internalID: -2916603135975835558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_128
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 900
+        width: 16
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9510ae43bb6831af0800000000000000
+      internalID: -426849401065307815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_129
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 900
+        width: 16
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a9d590cd25d440800000000000000
+      internalID: 4959920869789507596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_130
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 870
+        width: 24
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7462897fd860170800000000000000
+      internalID: 8144353070695204852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_131
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 856
+        width: 42
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4532e9caa37d2a770800000000000000
+      internalID: 8620689283744670548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_132
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 881
+        width: 39
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b4be27d6810960800000000000000
+      internalID: 7566477107718830291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_133
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 881
+        width: 39
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f34c1f4885f3d30800000000000000
+      internalID: 4413343487861473103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_136
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 715
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67b56c871e544de0800000000000000
+      internalID: -1349850533071571089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_137
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 715
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2af181498ac4000800000000000000
+      internalID: 21577452243362497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_138
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 797
+        width: 59
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920912bda50194040800000000000000
+      internalID: 4632251674136776745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_139
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 797
+        width: 63
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa8b43eb5097fa60800000000000000
+      internalID: 7707788011597695650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_140
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 832
+        width: 22
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afde15dfac3096e20800000000000000
+      internalID: 3344208368667586042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_145
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 800
+        width: 71
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a502cf01c969f9d0800000000000000
+      internalID: -2740042620364257880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_146
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 800
+        width: 97
+        height: 66
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940b75b819af05960800000000000000
+      internalID: 7588840875134267465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_147
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 800
+        width: 73
+        height: 68
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30153c565de736ab0800000000000000
+      internalID: -5016026104960167677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_148
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 582
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1343a67500da13110800000000000000
+      internalID: 1238961589481780273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_149
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 582
+        width: 62
+        height: 130
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efd9e424fa6de650800000000000000
+      internalID: 6263780253566099432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_150
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 582
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fa63ac2f386f030800000000000000
+      internalID: 3528152436889267980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_151
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 582
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff4e9fb95ff1130800000000000000
+      internalID: 3539817882397769719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_152
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 582
+        width: 65
+        height: 150
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617fde365b17feb70800000000000000
+      internalID: 8930481609978541846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_153
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 659
+        width: 18
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6c9cad642575f0800000000000000
+      internalID: -759660908676092155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_154
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 654
+        width: 68
+        height: 127
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d137f69280609690800000000000000
+      internalID: -7597466457379229225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_155
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 654
+        width: 65
+        height: 140
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b630e459eb69ed70800000000000000
+      internalID: 9072901574210107059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_156
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 654
+        width: 65
+        height: 140
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cfdac1c46b41e40800000000000000
+      internalID: 5626322272507526168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_157
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 633
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68130240b9327ff20800000000000000
+      internalID: 3456270387726266758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_158
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 633
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dc674d500714e30800000000000000
+      internalID: 4485989874179427620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_159
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 633
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68c0400a3ce62700800000000000000
+      internalID: 515358941237004395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_160
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 597
+        width: 36
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e7ddb2af916a3c0800000000000000
+      internalID: -4348759827911180678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_161
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 625
+        width: 10
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37414ded5364be430800000000000000
+      internalID: 3813218706684908659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_162
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 470
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc722e826bc0afa0800000000000000
+      internalID: -5791405496646599497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_163
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 470
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06dadf479e9132a0800000000000000
+      internalID: -6759447192989411827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_164
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 470
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86eaf5b01957d5a0800000000000000
+      internalID: -6496626009151183220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_165
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 582
+        width: 33
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9d981c839cb6750800000000000000
+      internalID: 6299349749410159100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_166
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 612
+        width: 25
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc40c133608825170800000000000000
+      internalID: 8165738634584786127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_167
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 585
+        width: 31
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ffc3a5c9a1ea30800000000000000
+      internalID: 4242858990281683976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_168
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 582
+        width: 35
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce440de31cfdf9a0800000000000000
+      internalID: -6197520349680873777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_169
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 445
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf26ede166c16030800000000000000
+      internalID: 3486285710466887619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_170
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 447
+        width: 62
+        height: 132
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa0302fbb894a760800000000000000
+      internalID: 7468262015073716976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_171
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 447
+        width: 36
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c244ad98d537d0800000000000000
+      internalID: -2939205010212075231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_172
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 447
+        width: 36
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3a6c5d081fe43c0800000000000000
+      internalID: -4373292652485499951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_173
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 447
+        width: 32
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d804e55be02ec40800000000000000
+      internalID: 5540006663752289587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_174
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 447
+        width: 20
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8ea03e71f54dd80800000000000000
+      internalID: -8226846063101024080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_175
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 446
+        width: 62
+        height: 133
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3669e9088afaea760800000000000000
+      internalID: 7471101970101474915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_176
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 446
+        width: 42
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b4ebe18490b63b0800000000000000
+      internalID: -5518306713054328015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_177
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 446
+        width: 45
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2370c0f037a7e30800000000000000
+      internalID: 4502037285973734052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_178
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 307
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fa6992698726360800000000000000
+      internalID: 7161418943810678643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_179
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 307
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169aae4555a7d6710800000000000000
+      internalID: 1688139942249277793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_180
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 307
+        width: 240
+        height: 160
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef48c7c75b1b1b70800000000000000
+      internalID: 8870713954864222179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_181
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 298
+        width: 61
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d43728632e38060800000000000000
+      internalID: 6954650973334883609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_182
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 298
+        width: 125
+        height: 134
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd36fb05ee99282c0800000000000000
+      internalID: -4430809834543160356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_183
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 414
+        width: 11
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64819a998047a1570800000000000000
+      internalID: 8438184432118601798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_184
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 298
+        width: 125
+        height: 117
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502cc3bcec1392520800000000000000
+      internalID: 2677726217691251205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_185
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 298
+        width: 150
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91da422716a55f770800000000000000
+      internalID: 8643914434380868889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_186
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 298
+        width: 142
+        height: 80
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca3f3b0ac61173f0800000000000000
+      internalID: -904916993096860987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_187
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 298
+        width: 131
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61475eec2493d3830800000000000000
+      internalID: 4052458198805083158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_188
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 157
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3ea767f2dfbbe70800000000000000
+      internalID: 9132171049716868019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_189
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 157
+        width: 94
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf384887c48be400800000000000000
+      internalID: 354522988198510510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_190
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 157
+        width: 77
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a6729b5a4e82870800000000000000
+      internalID: 8658421684046883337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_191
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 157
+        width: 67
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6290bdbff66721870800000000000000
+      internalID: 8652108057471027494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_192
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 157
+        width: 114
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cc93d5e742b8920800000000000000
+      internalID: 2993526502466374754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_193
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 157
+        width: 114
+        height: 120
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19d942b6942744b0800000000000000
+      internalID: -5456352193881188067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_194
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 157
+        width: 74
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e04646becb5d63f0800000000000000
+      internalID: -905967006652153629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_195
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 157
+        width: 64
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ad924bf407dd080800000000000000
+      internalID: -9161042579374351713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_196
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 88
+        height: 92
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cc19e687f3b88b0800000000000000
+      internalID: -5148951962484356049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_197
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1
+        width: 104
+        height: 87
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49b41027cac90eb0800000000000000
+      internalID: -4753044975127316149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_198
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 119
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7eec34f2e70ab50800000000000000
+      internalID: 6602415795191343093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_199
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1
+        width: 113
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5954eb8b27cb3dfa0800000000000000
+      internalID: -5777066696074443371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_200
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1
+        width: 112
+        height: 85
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804320ec8145dbb70800000000000000
+      internalID: 8916375302775649288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_201
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1
+        width: 84
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea08e0c1134b1c50800000000000000
+      internalID: 6636972219390495459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_202
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1
+        width: 54
+        height: 154
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f549c120903dfada0800000000000000
+      internalID: -5931290148580060065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_203
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1
+        width: 53
+        height: 153
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc760c7d88b7c3d0800000000000000
+      internalID: -3186375293530637099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Happy
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1
+        width: 62
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef8c61bf20d33fd0800000000000000
+      internalID: -2363316476180656154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1
+        width: 62
+        height: 126
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0cdae8dd8986750800000000000000
+      internalID: 6298452156226584768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1
+        width: 62
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d8d84ee8ab1890800000000000000
+      internalID: -7486204214195464396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1
+        width: 62
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584a5da542f8ee3b0800000000000000
+      internalID: -5481286310157769595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_90
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 991
+        width: 7
+        height: 6
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e934db8d4d4e2760800000000000000
+      internalID: 7434965030289029608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_91
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 972
+        width: 15
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4845ae5f42ad14b0800000000000000
+      internalID: -5468035910783907763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_95
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 972
+        width: 6
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7cb92a6d6b89870800000000000000
+      internalID: 8689896513978746794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_115
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 938
+        width: 5
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7e7245dd2d677d0800000000000000
+      internalID: -2920915460261681212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_134
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 870
+        width: 15
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63e25da232623ce0800000000000000
+      internalID: -1426970162127248533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_135
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 870
+        width: 16
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dae73abb1370ae00800000000000000
+      internalID: 1053968875730234071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_141
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 834
+        width: 18
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df526c72e076f0d30800000000000000
+      internalID: 4399848671458764285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_142
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 834
+        width: 22
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac453609d639e1a0800000000000000
+      internalID: -6779827458289611605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_143
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 833
+        width: 21
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49da35ae791f3d740800000000000000
+      internalID: 5175746031552540052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Karate Man Joe Man Man NoBG_144
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 833
+        width: 15
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9287fa8476ae4440800000000000000
+      internalID: 4922054462240424606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

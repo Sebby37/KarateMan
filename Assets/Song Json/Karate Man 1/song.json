@@ -1,0 +1,183 @@
+{
+    "Name": "Karate Man 1",
+    "BPM": 119,
+    "BackgroundType": 1,
+    "BPM Changes": [
+        {
+            "BPM": 150,
+            "Beat": 136
+        },
+        {
+            "BPM": 140,
+            "Beat": 148
+        }
+    ],
+    "Notes": [
+        {
+            "Type": "Pot",
+            "Beat": 16
+        },
+        {
+            "Type": "Pot",
+            "Beat": 24
+        },
+        {
+            "Type": "Pot",
+            "Beat": 32
+        },
+        {
+            "Type": "Pot",
+            "Beat": 40
+        },
+        {
+            "Type": "Pot",
+            "Beat": 48
+        },
+        {
+            "Type": "Rock",
+            "Beat": 52
+        },
+        {
+            "Type": "Pot",
+            "Beat": 60
+        },
+        {
+            "Type": "Pot",
+            "Beat": 64
+        },
+        {
+            "Type": "Pot",
+            "Beat": 68
+        },
+        {
+            "Type": "Pot",
+            "Beat": 72
+        },
+        {
+            "Type": "Ball",
+            "Beat": 76
+        },
+        {
+            "Type": "CookingPot",
+            "Beat": 81
+        },
+        {
+            "Type": "Pot",
+            "Beat": 81
+        },
+        {
+            "Type": "Pot",
+            "Beat": 88
+        },
+        {
+            "Type": "Rock",
+            "Beat": 92
+        },
+        {
+            "Type": "Pot",
+            "Beat": 98
+        },
+        {
+            "Type": "Pot",
+            "Beat": 100
+        },
+        {
+            "Type": "Pot",
+            "Beat": 102
+        },
+        {
+            "Type": "Pot",
+            "Beat": 104
+        },
+        {
+            "Type": "Ball",
+            "Beat": 106
+        },
+        {
+            "Type": "Pot",
+            "Beat": 110
+        },
+        {
+            "Type": "Pot",
+            "Beat": 111
+        },
+        {
+            "Type": "Rock",
+            "Beat": 112
+        },
+        {
+            "Type": "Pot",
+            "Beat": 114
+        },
+        {
+            "Type": "Pot",
+            "Beat": 116
+        },
+        {
+            "Type": "Pot",
+            "Beat": 118
+        },
+        {
+            "Type": "Pot",
+            "Beat": 120
+        },
+        {
+            "Type": "Pot",
+            "Beat": 122
+        },
+        {
+            "Type": "Pot",
+            "Beat": 124
+        },
+        {
+            "Type": "Pot",
+            "Beat": 126
+        },
+        {
+            "Type": "Pot",
+            "Beat": 128
+        },
+        {
+            "Type": "Pot",
+            "Beat": 130
+        },
+        {
+            "Type": "Rock",
+            "Beat": 132
+        },
+        {
+            "Type": "Pot",
+            "Beat": 134
+        },
+        {
+            "Type": "Pot",
+            "Beat": 135
+        },
+        {
+            "Type": "CookingPot",
+            "Beat": 136
+        },
+        {
+            "Type": "Rock",
+            "Beat": 156
+        }
+    ],
+    "Events": [
+        {
+            "Type": "BackgroundStart",
+            "Beat": 52
+        },
+        {
+            "Type": "Grr",
+            "Beat": 80
+        },
+        {
+            "Type": "Hit 3",
+            "Beat": 108.5
+        },
+        {
+            "Type": "Hit 3",
+            "Beat": 130.5
+        }
+    ]
+}
