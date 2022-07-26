@@ -14,6 +14,8 @@ public class PotTest : MonoBehaviour
     public float offset;
     public bool onBeat = true;
 
+    public Sprite hitGraphic;
+
     private float timeSinceCreation = 0;
     private bool missed = false;
 
@@ -37,7 +39,7 @@ public class PotTest : MonoBehaviour
     }
     
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         timeSinceCreation += Time.deltaTime;
 
@@ -61,9 +63,21 @@ public class PotTest : MonoBehaviour
 
     public float Hit()
     {
+        // Playing the hit animation and hit sfx
         animator.SetTrigger("HitOnBeat");
         hitSFX.Play();
 
+        // Creating a hit graphic at the center of the screen and destroying it after a small delay
+        GameObject hitGraphicObject = new GameObject("Hit Graphic");
+        hitGraphicObject.transform.position = new Vector3(0, 0, -0.5f);
+        hitGraphicObject.transform.localScale = Vector3.one * 3.5f;
+
+        SpriteRenderer hitRenderer = hitGraphicObject.AddComponent<SpriteRenderer>();
+        hitRenderer.sprite = hitGraphic;
+
+        Destroy(hitGraphicObject, 0.1f);
+
+        // Returns the delay from the hit
         return timeSinceCreation - secondsPerBeat * beatsToHit;
     }
 

@@ -167,9 +167,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beepSFX: {fileID: 8300000, guid: 0c73bb7d023e2a64fa25ca43a1078dea, type: 3}
+  throwOffset: -0.13
   songAudio: {fileID: 1940725944}
   punchSFX: {fileID: 8300000, guid: ebabb383db53e72419778985d993df51, type: 3}
   potPrefab: {fileID: 9194180327142338640, guid: 10064bee599ef1540a460c5e465a6f5d, type: 3}
+  potSprite: {fileID: -8450264648712899729, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
+  rockSprite: {fileID: -7927259190360862743, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
+  ballSprite: {fileID: -5050380339734451694, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
+  cookingPotSprite: {fileID: -175333183428901628, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
+  potHitSfx: {fileID: 8300000, guid: 8fbc5641c613c9f40a207651cc244e9f, type: 3}
+  rockHitSfx: {fileID: 8300000, guid: 64baf9fab29e2bf46adb7bb8ef05e36b, type: 3}
+  ballHitSfx: {fileID: 8300000, guid: 1191c2d81da587440bdfc6fe208f58e9, type: 3}
+  cookingPotHitSfx: {fileID: 8300000, guid: 42ae6e389a7859b40a37864cb74b4ee7, type: 3}
 --- !u!1 &753543170
 GameObject:
   m_ObjectHideFlags: 0

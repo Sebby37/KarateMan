@@ -217,7 +217,7 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_70
   - first:
       213: -175333183428901628
-    second: Karate Man Joe Man Man NoBG_71
+    second: HittableCookingPot
   - first:
       213: 594212323328933717
     second: Karate Man Joe Man Man NoBG_72
@@ -271,7 +271,7 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_88
   - first:
       213: -1662753984670414605
-    second: Karate Man Joe Man Man NoBG_89
+    second: TextHit
   - first:
       213: 7434965030289029608
     second: Karate Man Joe Man Man NoBG_90
@@ -316,16 +316,16 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_103
   - first:
       213: -8563042398188863598
-    second: Karate Man Joe Man Man NoBG_104
+    second: TextOne
   - first:
       213: -3645717250914248562
-    second: Karate Man Joe Man Man NoBG_105
+    second: TextTwo
   - first:
       213: 8764011092183362319
-    second: Karate Man Joe Man Man NoBG_106
+    second: TextThree
   - first:
       213: -7390243365358862714
-    second: Karate Man Joe Man Man NoBG_107
+    second: TextFour
   - first:
       213: 1705532902865883336
     second: Karate Man Joe Man Man NoBG_108
@@ -394,7 +394,7 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_129
   - first:
       213: 8144353070695204852
-    second: Karate Man Joe Man Man NoBG_130
+    second: TextGrr
   - first:
       213: 8620689283744670548
     second: Karate Man Joe Man Man NoBG_131
@@ -475,10 +475,10 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_156
   - first:
       213: 3456270387726266758
-    second: Karate Man Joe Man Man NoBG_157
+    second: BGOne1
   - first:
       213: 4485989874179427620
-    second: Karate Man Joe Man Man NoBG_158
+    second: BGTwo1
   - first:
       213: 515358941237004395
     second: Karate Man Joe Man Man NoBG_159
@@ -490,10 +490,10 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_161
   - first:
       213: -5791405496646599497
-    second: Karate Man Joe Man Man NoBG_162
+    second: BGOne2
   - first:
       213: -6759447192989411827
-    second: Karate Man Joe Man Man NoBG_163
+    second: BGTwo2
   - first:
       213: -6496626009151183220
     second: Karate Man Joe Man Man NoBG_164
@@ -538,10 +538,10 @@ TextureImporter:
     second: Karate Man Joe Man Man NoBG_177
   - first:
       213: 7161418943810678643
-    second: Karate Man Joe Man Man NoBG_178
+    second: BGThree1
   - first:
       213: 1688139942249277793
-    second: Karate Man Joe Man Man NoBG_179
+    second: BGThree2
   - first:
       213: 8870713954864222179
     second: Karate Man Joe Man Man NoBG_180
@@ -1856,8 +1856,8 @@ TextureImporter:
         y: 1078
         width: 45
         height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2206,15 +2206,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_71
+      name: HittableCookingPot
       rect:
         serializedVersion: 2
         x: 704
         y: 1044
         width: 43
         height: 31
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2584,12 +2584,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_89
+      name: TextHit
       rect:
         serializedVersion: 2
         x: 976
         y: 971
-        width: 19
+        width: 49
         height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -2836,7 +2836,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_104
+      name: TextOne
       rect:
         serializedVersion: 2
         x: 975
@@ -2857,7 +2857,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_105
+      name: TextTwo
       rect:
         serializedVersion: 2
         x: 990
@@ -2878,7 +2878,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_106
+      name: TextThree
       rect:
         serializedVersion: 2
         x: 1018
@@ -2899,7 +2899,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_107
+      name: TextFour
       rect:
         serializedVersion: 2
         x: 1044
@@ -3361,12 +3361,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_130
+      name: TextGrr
       rect:
         serializedVersion: 2
         x: 975
         y: 870
-        width: 24
+        width: 60
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -3802,7 +3802,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_157
+      name: BGOne1
       rect:
         serializedVersion: 2
         x: 795
@@ -3823,7 +3823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_158
+      name: BGTwo1
       rect:
         serializedVersion: 2
         x: 1038
@@ -3907,7 +3907,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_162
+      name: BGOne2
       rect:
         serializedVersion: 2
         x: 795
@@ -3928,7 +3928,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_163
+      name: BGTwo2
       rect:
         serializedVersion: 2
         x: 1038
@@ -4243,7 +4243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_178
+      name: BGThree1
       rect:
         serializedVersion: 2
         x: 795
@@ -4264,7 +4264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_179
+      name: BGThree2
       rect:
         serializedVersion: 2
         x: 1038
@@ -4873,69 +4873,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_90
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 991
-        width: 7
-        height: 6
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e934db8d4d4e2760800000000000000
-      internalID: 7434965030289029608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_91
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 972
-        width: 15
-        height: 26
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4845ae5f42ad14b0800000000000000
-      internalID: -5468035910783907763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_95
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 972
-        width: 6
-        height: 18
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa7cb92a6d6b89870800000000000000
-      internalID: 8689896513978746794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Karate Man Joe Man Man NoBG_115
       rect:
         serializedVersion: 2
@@ -4952,48 +4889,6 @@ TextureImporter:
       bones: []
       spriteID: 4c7e7245dd2d677d0800000000000000
       internalID: -2920915460261681212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_134
-      rect:
-        serializedVersion: 2
-        x: 1002
-        y: 870
-        width: 15
-        height: 21
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b63e25da232623ce0800000000000000
-      internalID: -1426970162127248533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_135
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 870
-        width: 16
-        height: 22
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dae73abb1370ae00800000000000000
-      internalID: 1053968875730234071
       vertices: []
       indices: 
       edges: []

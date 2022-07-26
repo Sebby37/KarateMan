@@ -504,3 +504,4 @@ MonoBehaviour:
   throwOffBeatSFX: {fileID: 8036966309241830156}
   offset: 0
   onBeat: 0
+  hitGraphic: {fileID: -6192221605110715177, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}

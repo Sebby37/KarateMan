@@ -17,6 +17,15 @@ public class SongManagerTest : MonoBehaviour
 
     [Header("Objects")]
     public GameObject potPrefab;
+    public Sprite potSprite;
+    public Sprite rockSprite;
+    public Sprite ballSprite;
+    public Sprite cookingPotSprite;
+
+    public AudioClip potHitSfx;
+    public AudioClip rockHitSfx;
+    public AudioClip ballHitSfx;
+    public AudioClip cookingPotHitSfx;
 
     public static bool songStarted = false;
 
@@ -80,15 +89,19 @@ public class SongManagerTest : MonoBehaviour
         Debug.Log($"Current beat: {Mathf.Round(timeBetweenBeat)}\nBPM: {BPM} | Seconds per beat: {secondsPerBeat}");
 
         // Throw pots with the beat of the song
-        if (notes.Count > 0) 
+        if (notes.Count > 0)
         {
             TestNote latestNote = notes[0];
             if (timeBetweenBeat >= latestNote.BeatNumber - 2)
             {
                 float offset = (timeBetweenBeat) - (latestNote.BeatNumber - 2); // Calculating hit offset
                 Debug.Log($"Pot thrown with offset of {offset}\nPot was thrown on beat {(timeBetweenBeat)}, should have been thrown on beat {(latestNote.BeatNumber - 2)}\nBPM: {BPM}, Notes Left: {notes.Count - 1}");
-                ThrowPot(offset, offBeat: !(latestNote.BeatNumber % 2 == 0));
+
+                ThrowPot(offset, ThrowableToSprite(latestNote.Type), ThrowableToHitSFX(latestNote.Type), offBeat: !(latestNote.BeatNumber % 2 == 0));
                 notes.RemoveAt(0);
+
+                // Setting the hard punch to be whether the thrown object was a rock or cooking pot
+                KarateJoeAnims.hardPunchNext = (latestNote.Type == ThrowablesTest.Rock || latestNote.Type == ThrowablesTest.CookingPot);
             }
         }
         else
@@ -164,7 +177,7 @@ public class SongManagerTest : MonoBehaviour
         AudioSource.PlayClipAtPoint(beepSFX, Vector3.zero);
     }
 
-    void ThrowPot(float offset, bool offBeat = false)
+    void ThrowPot(float offset, Sprite sprite, AudioClip hitSfx, bool offBeat = false)
     {
         GameObject pot = Instantiate(potPrefab);
         Animator potAnimator = pot.GetComponent<Animator>();
@@ -173,6 +186,12 @@ public class SongManagerTest : MonoBehaviour
         potAnimator.SetFloat("Speed", BPM / 60);
         potAnimator.SetFloat("Offset", offset);
         potAnimator.SetTrigger(offBeat ? "ThrowOffBeat" : "ThrowOnBeat");
+
+        SpriteRenderer renderer = potAnimator.GetComponent<SpriteRenderer>();
+        renderer.sprite = sprite;
+
+        PotTest potTest = pot.GetComponent<PotTest>();
+        potTest.hitSFX.clip = hitSfx;
 
         thrownObjects.Add(pot);
     }
@@ -183,5 +202,35 @@ public class SongManagerTest : MonoBehaviour
         secondsPerBeat = 60 / BPM;
 
         GameObject.FindGameObjectWithTag("Player").GetComponent<KarateJoeAnims>().ChangeBPM();
+    }
+
+    Sprite ThrowableToSprite(ThrowablesTest throwable)
+    {
+        switch (throwable)
+        {
+            case ThrowablesTest.Rock:
+                return rockSprite;
+            case ThrowablesTest.Ball:
+                return ballSprite;
+            case ThrowablesTest.CookingPot:
+                return cookingPotSprite;
+            default:
+                return potSprite;
+        }
+    }
+
+    AudioClip ThrowableToHitSFX(ThrowablesTest throwable)
+    {
+        switch (throwable)
+        {
+            case ThrowablesTest.Rock:
+                return rockHitSfx;
+            case ThrowablesTest.Ball:
+                return ballHitSfx;
+            case ThrowablesTest.CookingPot:
+                return cookingPotHitSfx;
+            default:
+                return potHitSfx;
+        }
     }
 }
