@@ -12,8 +12,16 @@ public class SongManagerTest : MonoBehaviour
     public float throwOffset = -0.13f;
     public List<TestNote> notes = new List<TestNote>();
     public List<BPMChange> bpmChanges = new List<BPMChange>();
+    public List<SongEvent> songEvents = new List<SongEvent>();
     public AudioSource songAudio;
     public AudioSource punchSFX;
+
+    [Header("Text + Positioning")]
+    public Vector3 textPosition;
+    public Sprite grrSprite;
+    public Sprite hitSprite;
+    public Sprite threeSprite;
+    public float hitNumberingOffset = 3;
 
     [Header("Objects")]
     public GameObject potPrefab;
@@ -46,12 +54,14 @@ public class SongManagerTest : MonoBehaviour
         notes.Add(new TestNote(ThrowablesTest.Pot, 40));
         notes.Add(new TestNote(ThrowablesTest.Pot, 48));
         notes.Add(new TestNote(ThrowablesTest.Rock, 52)); // Rock
+        songEvents.Add(new SongEvent(EventTypes.BackgroundStart, 57)); // Background start
         notes.Add(new TestNote(ThrowablesTest.Pot, 60));
         notes.Add(new TestNote(ThrowablesTest.Pot, 64));
         notes.Add(new TestNote(ThrowablesTest.Pot, 68));
         notes.Add(new TestNote(ThrowablesTest.Pot, 72));
         notes.Add(new TestNote(ThrowablesTest.Ball, 76)); // Soccer ball
-        notes.Add(new TestNote(ThrowablesTest.CookingPot, 81)); // Cooking pot (Grr 1 beat before it)
+        songEvents.Add(new SongEvent(EventTypes.Grr, 78)); // Grr for 1 beat
+        notes.Add(new TestNote(ThrowablesTest.CookingPot, 81)); // Cooking pot
         notes.Add(new TestNote(ThrowablesTest.Pot, 88));
         notes.Add(new TestNote(ThrowablesTest.Rock, 92)); // Rock
         notes.Add(new TestNote(ThrowablesTest.Pot, 98));
@@ -59,6 +69,7 @@ public class SongManagerTest : MonoBehaviour
         notes.Add(new TestNote(ThrowablesTest.Pot, 102));
         notes.Add(new TestNote(ThrowablesTest.Pot, 104));
         notes.Add(new TestNote(ThrowablesTest.Ball, 106));; // Soccer ball
+        songEvents.Add(new SongEvent(EventTypes.Hit3, 107)); // Hit 3 Sound
         notes.Add(new TestNote(ThrowablesTest.Pot, 110)); // Hit 3
         notes.Add(new TestNote(ThrowablesTest.Pot, 111)); // Hit 3
         notes.Add(new TestNote(ThrowablesTest.Rock, 112)); // Hit 3 (Rock)
@@ -72,11 +83,14 @@ public class SongManagerTest : MonoBehaviour
         notes.Add(new TestNote(ThrowablesTest.Pot, 128));
         notes.Add(new TestNote(ThrowablesTest.Pot, 130));
         notes.Add(new TestNote(ThrowablesTest.Rock, 132)); // Rock
+        songEvents.Add(new SongEvent(EventTypes.Hit3, 131)); // Hit 3 Sound
         notes.Add(new TestNote(ThrowablesTest.Pot, 134)); // Hit 3
         notes.Add(new TestNote(ThrowablesTest.Pot, 135)); // Hit 3
         notes.Add(new TestNote(ThrowablesTest.CookingPot, 136)); // Hit 3 (Cooking pot)
         bpmChanges.Add(new BPMChange(136, 150));
         bpmChanges.Add(new BPMChange(148, 140));
+        songEvents.Add(new SongEvent(EventTypes.Grr, 148)); // Grr
+        songEvents.Add(new SongEvent(EventTypes.BackgroundStop, 148)); // Background Stop
         notes.Add(new TestNote(ThrowablesTest.Rock, 156)); // Rock
         // HIT x NOTE: The audio and text shows up 1.5 beats before the objects are thrown. The text can disappear 1.5 + x beats after the sfx is played
     }
@@ -116,9 +130,18 @@ public class SongManagerTest : MonoBehaviour
             if (timeBetweenBeat >= nextBPM.BeatNumber)
             {
                 ChangeBPM(nextBPM.NewBPM);
-                // TODO: Get BPM changing to actually work, maybe rework this into a function and have it manually change the bpm
-                // for each object that needs it
                 bpmChanges.RemoveAt(0);
+            }
+        }
+
+        if (songEvents.Count > 0)
+        {
+            SongEvent songEvent = songEvents[0];
+
+            if (timeBetweenBeat >= songEvent.BeatNumber)
+            {
+                HandleSongEvent(songEvent.Type);
+                songEvents.RemoveAt(0);
             }
         }
     }
@@ -131,7 +154,7 @@ public class SongManagerTest : MonoBehaviour
             songAudio.Play();
             songStarted = true;
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Z)) punchSFX.Play();
 
         if (Input.GetKeyDown(KeyCode.Z) && thrownObjects.Count > 0)
@@ -162,10 +185,9 @@ public class SongManagerTest : MonoBehaviour
 
     /*
     TODO:
-    - Add in other objects to hit (Rock, light bulb, cooking pot)
-    - Add in the other hit animation for the above that require it
+    - Add in other objects to hit (light bulb)
     - Rewrite this code once it works to be more documented and efficient
-    - Add in background and word events (Hit 3, Grr)
+    - Add in background and word events (Hit x)
     - Create a file that stores the song information (If I don't need to have 3 different scenes for levels)
     - Chart all songs or only the ones I need (karate man gba, karate man ds, karate man wii) + extras (karate man megamix prequel, karate man senior)
     - Create a title screen and level selection menu
@@ -231,6 +253,62 @@ public class SongManagerTest : MonoBehaviour
                 return cookingPotHitSfx;
             default:
                 return potHitSfx;
+        }
+    }
+
+    void HandleSongEvent(EventTypes type)
+    {
+        switch (type)
+        {
+            // Text Events
+            case EventTypes.Grr:
+                GameObject grrText = new GameObject("Grr");
+                grrText.transform.position = textPosition;
+                grrText.transform.localScale = Vector3.one * 5;
+
+                SpriteRenderer spriteRenderer = grrText.AddComponent<SpriteRenderer>();
+                spriteRenderer.sprite = grrSprite;
+
+                Destroy(grrText, secondsPerBeat);
+                break;
+            case EventTypes.Hit3:
+                // Creating a parent to store the hit and 3
+                GameObject hitParent = new GameObject("Hit 3");
+
+                // Creating a gameobject to show the hit text
+                GameObject hitText = new GameObject("Hit");
+                hitText.transform.SetParent(hitParent.transform);
+                hitText.transform.localScale = Vector3.one * 5;
+
+                // Setting the sprite of the newly created gameobject to the hit text
+                SpriteRenderer hitSpriteRenderer = hitText.AddComponent<SpriteRenderer>();
+                hitSpriteRenderer.sprite = hitSprite;
+
+                // Creating a gameobject to show the 3
+                GameObject threeText = new GameObject("3");
+                threeText.transform.SetParent(hitParent.transform);
+                threeText.transform.position = new Vector3(hitNumberingOffset, 0, 0);
+                threeText.transform.localScale = Vector3.one * 5;
+
+                // Setting the sprite to the 3 sprite
+                SpriteRenderer threeSpriteRenderer = threeText.AddComponent<SpriteRenderer>();
+                threeSpriteRenderer.sprite = threeSprite;
+
+                // Setting the hit parent to be at the text position
+                hitParent.transform.position = textPosition;
+
+                // Setting the parent object to be destroyed after a set amount of time
+                Destroy(hitParent, secondsPerBeat * 4);
+
+                break;
+
+            // Background Events
+            case EventTypes.BackgroundStart:
+                BackgroundControllerTest.isFlashing = true;
+                break;
+            case EventTypes.BackgroundStop:
+                BackgroundControllerTest.isFlashing = false;
+                break;
         }
     }
 }

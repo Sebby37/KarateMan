@@ -50,12 +50,12 @@ public struct BPMChange
 
 public struct SongEvent
 {
-    public SongEvent(EventType _type, float _beatNumber)
+    public SongEvent(EventTypes _type, float _beatNumber)
     {
         Type = _type;
         BeatNumber = _beatNumber;
     }
 
-    public EventType Type { get; }
+    public EventTypes Type { get; }
     public float BeatNumber { get; }
 }
