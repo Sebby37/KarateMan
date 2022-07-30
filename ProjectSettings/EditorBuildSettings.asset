@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: 1077080ff93f9734090dc70e8e9ffff9
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/KarateManTest.unity
-    guid: ac5405169e1e8f44ba0f37222d8d9062
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: e041a7c364110b7448944a2c75411b31
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 4c4c43a149307b0488a1f49b9bced836
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 9c3ebc0cf581af1489848aaf01f0bbe2
+  - enabled: 1
+    path: Assets/Scenes/ResultsScreen.unity
+    guid: 9bdeff2134a5dff4cae34cd70dd19a3e
   m_configObjects: {}

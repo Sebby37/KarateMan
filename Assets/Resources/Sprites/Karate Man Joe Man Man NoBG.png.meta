@@ -544,7 +544,7 @@ TextureImporter:
     second: BGThree2
   - first:
       213: 8870713954864222179
-    second: Karate Man Joe Man Man NoBG_180
+    second: BGUnknown
   - first:
       213: 6954650973334883609
     second: Karate Man Joe Man Man NoBG_181
@@ -4285,7 +4285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karate Man Joe Man Man NoBG_180
+      name: BGUnknown
       rect:
         serializedVersion: 2
         x: 1281

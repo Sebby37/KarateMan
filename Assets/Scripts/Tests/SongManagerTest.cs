@@ -1,6 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public enum Levels
+{
+    Level1,
+    Level2,
+    Level3
+}
 
 public class SongManagerTest : MonoBehaviour
 {
@@ -8,8 +16,9 @@ public class SongManagerTest : MonoBehaviour
     public AudioClip beepSFX;
 
     [Header("Song Info")]
-    public static float BPM = 119;
-    public float throwOffset = -0.13f;
+    public Levels level;
+    public static float BPM;// = 119;
+    public float throwOffset;// = -0.13f;
     public List<TestNote> notes = new List<TestNote>();
     public List<BPMChange> bpmChanges = new List<BPMChange>();
     public List<SongEvent> songEvents = new List<SongEvent>();
@@ -29,70 +38,61 @@ public class SongManagerTest : MonoBehaviour
     public Sprite rockSprite;
     public Sprite ballSprite;
     public Sprite cookingPotSprite;
+    public Sprite lightBulbSprite;
 
     public AudioClip potHitSfx;
     public AudioClip rockHitSfx;
     public AudioClip ballHitSfx;
     public AudioClip cookingPotHitSfx;
+    public AudioClip lightBulbHitSFX;
+    public AudioClip lightBulbThrowSFX;
 
     public static bool songStarted = false;
 
+    private int totalNotes;
+    private int notesHit = 0;
     private float previousHit = 0;
     private float secondsPerBeat;
     private float timeBetweenBeat = -1;
     private List<GameObject> thrownObjects = new List<GameObject>();
 
     // Start is called before the first frame update
-    void Start()
+    // Using awake as to load the song before any other gameobjects are loaded
+    void Awake()//Start()
     {
+        songStarted = false;
+        Song song;// = Songs.Song2();
+        switch (level)
+        {
+            case Levels.Level1:
+                song = Songs.Song1();
+                break;
+            case Levels.Level2:
+                song = Songs.Song2();
+                break;
+            case Levels.Level3:
+                song = Songs.Song3();
+                break;
+            default:
+                song = Songs.Song2();
+                break;
+        }
+
+        BPM = song.BPM;
+        notes = song.Notes;
+        bpmChanges = song.BpmChanges;
+        songEvents = song.SongEvents;
+
         secondsPerBeat = 60 / BPM;
 
-        // Karate man returns from megamix charting
-        notes.Add(new TestNote(ThrowablesTest.Pot, 16));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 24));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 32));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 40));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 48));
-        notes.Add(new TestNote(ThrowablesTest.Rock, 52)); // Rock
-        songEvents.Add(new SongEvent(EventTypes.BackgroundStart, 57)); // Background start
-        notes.Add(new TestNote(ThrowablesTest.Pot, 60));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 64));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 68));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 72));
-        notes.Add(new TestNote(ThrowablesTest.Ball, 76)); // Soccer ball
-        songEvents.Add(new SongEvent(EventTypes.Grr, 78)); // Grr for 1 beat
-        notes.Add(new TestNote(ThrowablesTest.CookingPot, 81)); // Cooking pot
-        notes.Add(new TestNote(ThrowablesTest.Pot, 88));
-        notes.Add(new TestNote(ThrowablesTest.Rock, 92)); // Rock
-        notes.Add(new TestNote(ThrowablesTest.Pot, 98));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 100));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 102));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 104));
-        notes.Add(new TestNote(ThrowablesTest.Ball, 106));; // Soccer ball
-        songEvents.Add(new SongEvent(EventTypes.Hit3, 107)); // Hit 3 Sound
-        notes.Add(new TestNote(ThrowablesTest.Pot, 110)); // Hit 3
-        notes.Add(new TestNote(ThrowablesTest.Pot, 111)); // Hit 3
-        notes.Add(new TestNote(ThrowablesTest.Rock, 112)); // Hit 3 (Rock)
-        notes.Add(new TestNote(ThrowablesTest.Pot, 114));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 116));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 118));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 120));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 122));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 124));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 126));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 128));
-        notes.Add(new TestNote(ThrowablesTest.Pot, 130));
-        notes.Add(new TestNote(ThrowablesTest.Rock, 132)); // Rock
-        songEvents.Add(new SongEvent(EventTypes.Hit3, 131)); // Hit 3 Sound
-        notes.Add(new TestNote(ThrowablesTest.Pot, 134)); // Hit 3
-        notes.Add(new TestNote(ThrowablesTest.Pot, 135)); // Hit 3
-        notes.Add(new TestNote(ThrowablesTest.CookingPot, 136)); // Hit 3 (Cooking pot)
-        bpmChanges.Add(new BPMChange(136, 150));
-        bpmChanges.Add(new BPMChange(148, 140));
-        songEvents.Add(new SongEvent(EventTypes.Grr, 148)); // Grr
-        songEvents.Add(new SongEvent(EventTypes.BackgroundStop, 148)); // Background Stop
-        notes.Add(new TestNote(ThrowablesTest.Rock, 156)); // Rock
+        throwOffset = song.SongOffset + GlobalUtils.GetInputOffsetInSeconds();
+        totalNotes = notes.Count;
         // HIT x NOTE: The audio and text shows up 1.5 beats before the objects are thrown. The text can disappear 1.5 + x beats after the sfx is played
+    }
+
+    private void Start()
+    {
+        timeBetweenBeat = -1;
     }
 
     // Update is called once per frame
@@ -111,7 +111,7 @@ public class SongManagerTest : MonoBehaviour
                 float offset = (timeBetweenBeat) - (latestNote.BeatNumber - 2); // Calculating hit offset
                 Debug.Log($"Pot thrown with offset of {offset}\nPot was thrown on beat {(timeBetweenBeat)}, should have been thrown on beat {(latestNote.BeatNumber - 2)}\nBPM: {BPM}, Notes Left: {notes.Count - 1}");
 
-                ThrowPot(offset, ThrowableToSprite(latestNote.Type), ThrowableToHitSFX(latestNote.Type), offBeat: !(latestNote.BeatNumber % 2 == 0));
+                ThrowPot(offset, ThrowableToSprite(latestNote.Type), ThrowableToHitSFX(latestNote.Type), offBeat: !(Mathf.Approximately(latestNote.BeatNumber, Mathf.RoundToInt(latestNote.BeatNumber))/*latestNote.BeatNumber % 2 == 0*/));
                 notes.RemoveAt(0);
 
                 // Setting the hard punch to be whether the thrown object was a rock or cooking pot
@@ -121,6 +121,8 @@ public class SongManagerTest : MonoBehaviour
         else
         {
             // End of song, go to results screen
+            songStarted = false;
+            StartCoroutine(WaitToLoadTitleScreen(secondsPerBeat * 4));
         }
 
         if (bpmChanges.Count > 0)
@@ -150,37 +152,45 @@ public class SongManagerTest : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !songStarted)
         {
-            timeBetweenBeat = 0 + throwOffset;
+            timeBetweenBeat = throwOffset;
             songAudio.Play();
             songStarted = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Z)) punchSFX.Play();
 
-        if (Input.GetKeyDown(KeyCode.Z) && thrownObjects.Count > 0)
+        if (thrownObjects.Count > 0)
         {
             GameObject currentThrownObject = thrownObjects[0];
             PotTest currentPot = currentThrownObject.GetComponent<PotTest>();
 
             if (currentPot.CanBeHit())
             {
-                previousHit = currentPot.Hit();
-                thrownObjects.Remove(currentThrownObject);
-            }
-            else
-            {
-                if (currentPot.Missed())
+                if (Input.GetKeyDown(KeyCode.Z))
                 {
-                    thrownObjects.RemoveAt(0);
+                    previousHit = currentPot.Hit();
+                    thrownObjects.Remove(currentThrownObject);
+                    notesHit++;
                 }
             }
+            else if (currentPot.Missed())
+            {
+                thrownObjects.RemoveAt(0);
+            }
+        }
+
+        // Escape key returns to title screen
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            songStarted = false;
+            ResultsScreen.ToTitleScreen();
         }
     }
 
     private void OnGUI()
     {
         // Displaying the hits and misses
-        GUI.TextField(new Rect(0, 0, 500, 20), $"Prev Hit: {previousHit * 1000} ms");
+        //GUI.TextField(new Rect(0, 0, 500, 20), $"Prev Hit: {previousHit * 1000} ms");
     }
 
     /*
@@ -203,7 +213,7 @@ public class SongManagerTest : MonoBehaviour
     {
         GameObject pot = Instantiate(potPrefab);
         Animator potAnimator = pot.GetComponent<Animator>();
-
+        
         potAnimator.SetBool("OnBeat", !offBeat);
         potAnimator.SetFloat("Speed", BPM / 60);
         potAnimator.SetFloat("Offset", offset);
@@ -214,6 +224,12 @@ public class SongManagerTest : MonoBehaviour
 
         PotTest potTest = pot.GetComponent<PotTest>();
         potTest.hitSFX.clip = hitSfx;
+
+        if (sprite == lightBulbSprite)
+        {
+            potTest.throwOnBeatSFX.clip = lightBulbThrowSFX;
+            potTest.throwOffBeatSFX.clip = lightBulbThrowSFX;
+        }
 
         thrownObjects.Add(pot);
     }
@@ -236,6 +252,8 @@ public class SongManagerTest : MonoBehaviour
                 return ballSprite;
             case ThrowablesTest.CookingPot:
                 return cookingPotSprite;
+            case ThrowablesTest.LightBulb:
+                return lightBulbSprite;
             default:
                 return potSprite;
         }
@@ -251,6 +269,8 @@ public class SongManagerTest : MonoBehaviour
                 return ballHitSfx;
             case ThrowablesTest.CookingPot:
                 return cookingPotHitSfx;
+            case ThrowablesTest.LightBulb:
+                return lightBulbHitSFX;
             default:
                 return potHitSfx;
         }
@@ -310,5 +330,12 @@ public class SongManagerTest : MonoBehaviour
                 BackgroundControllerTest.isFlashing = false;
                 break;
         }
+    }
+
+    IEnumerator WaitToLoadTitleScreen(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        ResultsScreen.ToResults(notesHit, totalNotes, SceneManager.GetActiveScene().name);
     }
 }

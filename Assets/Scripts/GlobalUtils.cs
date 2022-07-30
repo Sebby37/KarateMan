@@ -27,7 +27,7 @@ public class GlobalUtils
     public static float GetInputOffsetInSeconds()
     {
         int offsetInMs = GetInputOffset();
-        float offsetInSeconds = offsetInMs / 1000;
+        float offsetInSeconds = offsetInMs / 1000f;
 
         return offsetInSeconds;
     }
@@ -41,7 +41,7 @@ public class GlobalUtils
     {
         // Same as in input offset
         if (!PlayerPrefs.HasKey(flowPrefsName))
-            PlayerPrefs.SetInt(flowPrefsName, 0);
+            PlayerPrefs.SetInt(flowPrefsName, 50);
 
         return PlayerPrefs.GetInt(flowPrefsName);
     }

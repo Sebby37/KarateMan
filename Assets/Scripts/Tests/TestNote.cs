@@ -8,7 +8,7 @@ public enum ThrowablesTest
     Rock,
     Ball,
     CookingPot,
-    LogByBulb
+    LightBulb
 }
 
 public enum EventTypes

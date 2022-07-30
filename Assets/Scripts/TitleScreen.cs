@@ -71,6 +71,14 @@ public class TitleScreen : MonoBehaviour
         Application.Quit();
     }
 
+    public void ResetSave()
+    {
+        GlobalUtils.SetFlow(50);
+        GlobalUtils.SetInputOffset(0);
+        UpdateFlowText();
+        UpdateInputOffsetText();
+    }
+
     // Input offset changing functions
     void IncrementInputOffset()
     {

@@ -5,14 +5,16 @@ using UnityEngine;
 public class KarateJoeAnims : MonoBehaviour
 {
     public static bool hardPunchNext = false;
-    
-    private float BPM = SongManagerTest.BPM;
+
+    private float BPM;// = SongManagerTest.BPM;
     private float secondsPerBeat;
     private float timeBetweenBeat = 0;
     private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
+        BPM = SongManagerTest.BPM;
+
         animator = GetComponent<Animator>();
         animator.SetFloat("Speed", BPM / 60);
 
