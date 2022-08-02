@@ -122,6 +122,7 @@ public class SongManagerTest : MonoBehaviour
         {
             // End of song, go to results screen
             songStarted = false;
+            BackgroundControllerTest.isFlashing = false;
             StartCoroutine(WaitToLoadTitleScreen(secondsPerBeat * 4));
         }
 

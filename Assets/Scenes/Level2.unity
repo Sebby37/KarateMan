@@ -155,9 +155,9 @@ RectTransform:
   m_Father: {fileID: 1208926448}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -401, y: 111.984055}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 150, y: -107}
   m_SizeDelta: {x: 300, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &287962521
@@ -446,13 +446,13 @@ MonoBehaviour:
   rockSprite: {fileID: -7927259190360862743, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
   ballSprite: {fileID: -5050380339734451694, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
   cookingPotSprite: {fileID: -175333183428901628, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
-  lightBulbSprite: {fileID: 0}
+  lightBulbSprite: {fileID: -5070647115361842908, guid: ba8e49a9acd0cb9408a3f8e1813df810, type: 3}
   potHitSfx: {fileID: 8300000, guid: 8fbc5641c613c9f40a207651cc244e9f, type: 3}
   rockHitSfx: {fileID: 8300000, guid: 64baf9fab29e2bf46adb7bb8ef05e36b, type: 3}
   ballHitSfx: {fileID: 8300000, guid: 1191c2d81da587440bdfc6fe208f58e9, type: 3}
   cookingPotHitSfx: {fileID: 8300000, guid: 42ae6e389a7859b40a37864cb74b4ee7, type: 3}
-  lightBulbHitSFX: {fileID: 0}
-  lightBulbThrowSFX: {fileID: 0}
+  lightBulbHitSFX: {fileID: 8300000, guid: 99891dc49f052ea47af763b5db7c10a4, type: 3}
+  lightBulbThrowSFX: {fileID: 8300000, guid: edc9fe1f48057f84bb31a01724094c3d, type: 3}
 --- !u!1 &745572573
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,9 +969,9 @@ RectTransform:
   m_Father: {fileID: 1208926448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -401, y: 198}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 150, y: -20.98407}
   m_SizeDelta: {x: 300, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1612900140

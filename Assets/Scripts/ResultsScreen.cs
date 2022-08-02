@@ -43,7 +43,7 @@ public class ResultsScreen : MonoBehaviour
     void Start()
     {
         notesMissed = totalNotes - notesHit;
-        percentageOfNotesHit = (notesHit / totalNotes) * 100;
+        percentageOfNotesHit = ((float) notesHit / (float) totalNotes) * 100f;
         UpdateResultsScreen();
         UpdateFlow();
     }
