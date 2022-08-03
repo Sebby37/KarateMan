@@ -10,6 +10,7 @@ public class KarateJoeAnims : MonoBehaviour
     private float secondsPerBeat;
     private float timeBetweenBeat = 0;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,13 +20,18 @@ public class KarateJoeAnims : MonoBehaviour
         animator.SetFloat("Speed", BPM / 60);
 
         secondsPerBeat = 60 / BPM;
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
     {
         timeBetweenBeat += (SongManagerTest.songStarted ? Time.deltaTime : 0);
 
-        if (timeBetweenBeat >= secondsPerBeat && !animator.GetCurrentAnimatorStateInfo(0).IsName("Punch") && !animator.GetCurrentAnimatorStateInfo(0).IsName("PunchHard"))
+        if (timeBetweenBeat >= secondsPerBeat && 
+            /*!animator.GetCurrentAnimatorStateInfo(0).IsName("Punch") && 
+            !animator.GetCurrentAnimatorStateInfo(0).IsName("PunchHard") &&*/
+            spriteRenderer.sprite.name.Contains("Idle"))
         {
             float idleBopOffset = timeBetweenBeat - secondsPerBeat;
             timeBetweenBeat = idleBopOffset;

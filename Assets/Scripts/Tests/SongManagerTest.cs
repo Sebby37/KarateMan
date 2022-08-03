@@ -100,7 +100,7 @@ public class SongManagerTest : MonoBehaviour
     {
         // Incrementing the time between beats + logic for that
         timeBetweenBeat += (timeBetweenBeat > -1 ? Time.deltaTime : 0) / secondsPerBeat;
-        Debug.Log($"Current beat: {Mathf.Round(timeBetweenBeat)}\nBPM: {BPM} | Seconds per beat: {secondsPerBeat}");
+        //Debug.Log($"Current beat: {Mathf.Round(timeBetweenBeat)}\nBPM: {BPM} | Seconds per beat: {secondsPerBeat}");
 
         // Throw pots with the beat of the song
         if (notes.Count > 0)
@@ -109,7 +109,7 @@ public class SongManagerTest : MonoBehaviour
             if (timeBetweenBeat >= latestNote.BeatNumber - 2)
             {
                 float offset = (timeBetweenBeat) - (latestNote.BeatNumber - 2); // Calculating hit offset
-                Debug.Log($"Pot thrown with offset of {offset}\nPot was thrown on beat {(timeBetweenBeat)}, should have been thrown on beat {(latestNote.BeatNumber - 2)}\nBPM: {BPM}, Notes Left: {notes.Count - 1}");
+                //Debug.Log($"Pot thrown with offset of {offset}\nPot was thrown on beat {(timeBetweenBeat)}, should have been thrown on beat {(latestNote.BeatNumber - 2)}\nBPM: {BPM}, Notes Left: {notes.Count - 1}");
 
                 ThrowPot(offset, ThrowableToSprite(latestNote.Type), ThrowableToHitSFX(latestNote.Type), offBeat: !(Mathf.Approximately(latestNote.BeatNumber, Mathf.RoundToInt(latestNote.BeatNumber))/*latestNote.BeatNumber % 2 == 0*/));
                 notes.RemoveAt(0);
@@ -160,25 +160,36 @@ public class SongManagerTest : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z)) punchSFX.Play();
 
+        // Implemented Algorithm
+        // Check if there are more than zero pots to be thrown, continuing if so
         if (thrownObjects.Count > 0)
         {
+            // Get the first pot in the list of pots
             GameObject currentThrownObject = thrownObjects[0];
             PotTest currentPot = currentThrownObject.GetComponent<PotTest>();
 
+            // Check if the pot can be hit
             if (currentPot.CanBeHit())
             {
+                // Check if the punch key is pressed
                 if (Input.GetKeyDown(KeyCode.Z))
                 {
-                    previousHit = currentPot.Hit();
+                    // Hit the pot and remove it from the list of pots
+                    previousHit = currentPot.Hit(); // (DEBUGGING) Gets the time in milliseconds in which the pot was hit compared to when it should have been hit
                     thrownObjects.Remove(currentThrownObject);
+
+                    // Increment the notes that were hit by one
                     notesHit++;
                 }
             }
+            // Check if the pot was missed
             else if (currentPot.Missed())
             {
+                // Remove the first pot from the list of pots, as it is the currently thrown pot
                 thrownObjects.RemoveAt(0);
             }
         }
+        // End of Algorithm
 
         // Escape key returns to title screen
         if (Input.GetKeyDown(KeyCode.Escape))
